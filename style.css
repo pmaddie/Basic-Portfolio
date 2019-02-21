@@ -1,0 +1,81 @@
+body {
+    background-image: url("assets/images/prism.png");
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: #4aaaa4;
+    width: 260px;
+    color: white;  
+    margin-left: 10%;
+    padding: 30px;
+    font-size: 30px;
+    }
+/* is this correct way to use clear fix? */
+.clearfix {
+        clear:both;
+    }
+
+nav a {
+    width: 100px;
+    float:right;
+    margin-bottom: 50px;
+    margin-right: 10%; 
+    text-align: center;
+    background: white
+    padding: 5px 15px;
+    color: gray;
+    font-size: 18px;
+    border-right: 2px solid #4aaaa5;
+    text-decoration: none;
+ }
+/* how to remove last right border after "about" */
+
+ nav ul li {
+    display: inline;
+  }
+
+
+
+header {
+    background: white;
+    display: block;
+    border-bottom: 3px solid #ccc;
+    width: 100%;
+}
+.container {
+    width: 100%;
+    height: 15%;
+    margin: 0;
+    overflow: auto;
+    clear: both;
+}
+
+.inline-img {
+    float: left;
+    margin: 0 15px 15px 0;
+
+}
+/* how to align "about me" to "madeline f prusak" */
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom: 3px solid #ccc;
+    background: white;
+    width: 100%;
+    color: #4aaaa4;  
+    padding: 30px;
+    font-size: 30px;
+}
+
+
+.clearfix {
+    clear: both;
+}
+/* how to make content (bio pic & about me bio) evenly in the middle **with box around!! */
+p {
+    font-size: 18px;
+    line-height: 20x;
+    margin-bottom: 20px; 
+}
