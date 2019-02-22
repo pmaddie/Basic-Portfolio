@@ -3,7 +3,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
 }
-
+ /* refer to font family in instructions for headers */
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     background: #4aaaa4;
@@ -66,6 +66,10 @@ header {
 .paragraph1 {
     margin-top: 30px;
 }
+
+.paragraph3 {
+    margin-left: 30px;
+}
 /* how to align "about me" to "madeline f prusak" */
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -96,9 +100,11 @@ p {
     width: 1250px;
 }
 
-/* play around */
+/* play around with these different syntaxes*/
+
+
 section {
-    min-height: 600px;
+    min-height: 550px;
     width: 960px;
     margin-left: 227px;
     background-color: white;
@@ -142,6 +148,7 @@ footer {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    font-weight: lighter
 }
 
 .image {
@@ -170,7 +177,6 @@ footer {
 }
 
 /* pic banners */
-/* header and footer the same */
 h3 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     position:  absolute;
@@ -185,4 +191,12 @@ h3 {
     height: 12px;
     bottom: 30px;
     left: 20px;
+}
+
+h5 {
+    margin-bottom: -10px;
+}
+
+.textarea {
+    margin-top: 15px;
 }
