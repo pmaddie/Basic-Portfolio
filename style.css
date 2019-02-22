@@ -9,9 +9,11 @@ h1 {
     background: #4aaaa4;
     width: 260px;
     color: white;  
-    margin-left: 10%;
+    margin-left: 14%;
     padding: 30px;
     font-size: 30px;
+    position: relative;
+    bottom: -20px;
     }
 /* is this correct way to use clear fix? */
 .clearfix {
@@ -21,23 +23,25 @@ h1 {
 nav a {
     width: 100px;
     float:right;
-    margin-bottom: 50px;
-    margin-right: 10%; 
+    margin: 0;
     text-align: center;
-    background: white
-    padding: 5px 15px;
-    color: gray;
+    background: white;
+    color: lightgray;
     font-size: 18px;
     border-right: 2px solid #4aaaa5;
     text-decoration: none;
+    position: relative;
+    left: -100px;
+    top: -34px; 
+    /* play w top and bottom to get them in line. 
+    for each tag, always use positive relative. */
  }
+
 /* how to remove last right border after "about" */
 
- nav ul li {
+ /* nav ul li {
     display: inline;
-  }
-
-
+  } */
 
 header {
     background: white;
@@ -46,29 +50,35 @@ header {
     width: 100%;
 }
 .container {
-    width: 100%;
-    height: 15%;
-    margin: 0;
+    margin-left: 30px;
     overflow: auto;
     clear: both;
 }
-
+/* ^ margin left same as section margin left */
 .inline-img {
+    margin-right: 50px;
+    margin-left: 30px;
+    margin-top: 30px;
     float: left;
-    margin: 0 15px 15px 0;
+}
 
+
+.paragraph1 {
+    margin-top: 30px;
 }
 /* how to align "about me" to "madeline f prusak" */
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    border-bottom: 3px solid #ccc;
-    background: white;
-    width: 100%;
     color: #4aaaa4;  
     padding: 30px;
     font-size: 30px;
+    right: -120px;
 }
 
+.hr {
+    margin-left: 30px;
+    margin-right: 50px;
+}
 
 .clearfix {
     clear: both;
@@ -76,6 +86,103 @@ h2 {
 /* how to make content (bio pic & about me bio) evenly in the middle **with box around!! */
 p {
     font-size: 18px;
-    line-height: 20x;
+    line-height: initial;
     margin-bottom: 20px; 
+    font-size: 16px;
+    margin-right: 50px;
+}
+
+.links {
+    width: 1250px;
+}
+
+/* play around */
+section {
+    min-height: 600px;
+    width: 960px;
+    margin-left: 227px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+#section2 {
+    min-height: 600px;
+    width: 960px;
+    margin-left: 227px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+footer {
+    height: 40px;
+    width: 100%;
+    background-color: #666666;
+    border-top: solid #4aaaa5;
+    position: relative;
+    margin-bottom: 0px;  
+    margin-top: 120px;  
+    text-align: center;
+    padding-top: 10px;
+}
+
+.contact {
+    margin-left: 227px;
+}
+
+.form {
+    padding-left: 30px;
+}
+/* copied from w3 schools */
+#submitbutton {
+    background-color: #4aaaa4;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.image {
+    position: relative;
+    float: left;
+}
+
+#hangman {
+    margin: 30px;
+}
+
+#rpggame {
+    margin: 30px;
+}
+
+#triviagame {
+    margin: 30px;
+}
+
+#rutgers {
+    margin: 30px;
+}
+
+#rps {
+    margin: 30px;
+}
+
+/* pic banners */
+/* header and footer the same */
+h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position:  absolute;
+    background-color: #4aaaa4;
+    padding: 20px;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    z-index:5;
+    font-size: 15px;
+    width: 160px;
+    height: 12px;
+    bottom: 30px;
+    left: 20px;
 }
